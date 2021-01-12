@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B918C23A80E69AB0DB12D1 /* Pods_Space_Evade_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1E73566031E485A5E6E9D3 /* Pods_Space_Evade_.framework */; };
+		FA8BF36B254527070073C369 /* RewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BF36A254527070073C369 /* RewardedAd.swift */; };
+		FA94CEC724F0793B00574339 /* GameOver2.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEAD24F0793B00574339 /* GameOver2.wav */; };
+		FA94CEC824F0793B00574339 /* Click1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEAE24F0793B00574339 /* Click1.wav */; };
+		FA94CEC924F0793B00574339 /* CoinIncrease.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEAF24F0793B00574339 /* CoinIncrease.wav */; };
+		FA94CECA24F0793B00574339 /* RockBreaking.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB024F0793B00574339 /* RockBreaking.wav */; };
+		FA94CECB24F0793B00574339 /* GameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB124F0793B00574339 /* GameMusic.mp3 */; };
+		FA94CECC24F0793B00574339 /* ScoreIncrease.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB224F0793B00574339 /* ScoreIncrease.wav */; };
+		FA94CECD24F0793B00574339 /* WheelSpinSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB324F0793B00574339 /* WheelSpinSound.wav */; };
+		FA94CECE24F0793B00574339 /* Satellite.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB424F0793B00574339 /* Satellite.wav */; };
+		FA94CECF24F0793B00574339 /* Error2.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB524F0793B00574339 /* Error2.wav */; };
+		FA94CED024F0793B00574339 /* GameOverSound3.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB624F0793B00574339 /* GameOverSound3.wav */; };
+		FA94CED124F0793B00574339 /* Nuke.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB724F0793B00574339 /* Nuke.wav */; };
+		FA94CED224F0793B00574339 /* Missile.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB824F0793B00574339 /* Missile.wav */; };
+		FA94CED324F0793B00574339 /* PressDownButtonSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEB924F0793B00574339 /* PressDownButtonSound.wav */; };
+		FA94CED424F0793B00574339 /* PressUpButtonSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEBA24F0793B00574339 /* PressUpButtonSound.wav */; };
+		FA94CED524F0793B00574339 /* RocketTakingOff.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEBB24F0793B00574339 /* RocketTakingOff.wav */; };
+		FA94CED624F0793B00574339 /* WarpSpeed.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEBC24F0793B00574339 /* WarpSpeed.wav */; };
+		FA94CED724F0793B00574339 /* MainMenu.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEBD24F0793B00574339 /* MainMenu.wav */; };
+		FA94CED824F0793B00574339 /* Coin2.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEBE24F0793B00574339 /* Coin2.wav */; };
+		FA94CED924F0793B00574339 /* Coin1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEBF24F0793B00574339 /* Coin1.wav */; };
+		FA94CEDA24F0793B00574339 /* Explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEC024F0793B00574339 /* Explosion.wav */; };
+		FA94CEDB24F0793B00574339 /* Rocket.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEC124F0793B00574339 /* Rocket.wav */; };
+		FA94CEDC24F0793B00574339 /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEC224F0793B00574339 /* Error.wav */; };
+		FA94CEDD24F0793B00574339 /* ShopMusic2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEC324F0793B00574339 /* ShopMusic2.mp3 */; };
+		FA94CEDE24F0793B00574339 /* Cheers.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEC424F0793B00574339 /* Cheers.wav */; };
+		FA94CEDF24F0793B00574339 /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEC524F0793B00574339 /* GameOver.wav */; };
+		FA94CEE024F0793B00574339 /* UFO.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEC624F0793B00574339 /* UFO.wav */; };
+		FA94CEFD24F0797A00574339 /* UFOStream.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEE224F0797A00574339 /* UFOStream.sks */; };
+		FA94CEFE24F0797A00574339 /* Stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEE324F0797A00574339 /* Stars.sks */; };
+		FA94CEFF24F0797A00574339 /* BlowUpPowerUpGlow.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEE424F0797A00574339 /* BlowUpPowerUpGlow.sks */; };
+		FA94CF0024F0797A00574339 /* RockExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEE524F0797A00574339 /* RockExplosion.sks */; };
+		FA94CF0124F0797A00574339 /* FastEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEE624F0797A00574339 /* FastEffect.sks */; };
+		FA94CF0224F0797A00574339 /* MainMenuStars.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEE724F0797A00574339 /* MainMenuStars.sks */; };
+		FA94CF0324F0797A00574339 /* ForceFieldCircle.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEE824F0797A00574339 /* ForceFieldCircle.sks */; };
+		FA94CF0424F0797A00574339 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEE924F0797A00574339 /* Explosion.sks */; };
+		FA94CF0524F0797A00574339 /* ForceFieldCountDown.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEEA24F0797A00574339 /* ForceFieldCountDown.sks */; };
+		FA94CF0624F0797A00574339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEEB24F0797A00574339 /* Assets.xcassets */; };
+		FA94CF0724F0797A00574339 /* ShopStars.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEEC24F0797A00574339 /* ShopStars.sks */; };
+		FA94CF0824F0797A00574339 /* MissileFire.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEED24F0797A00574339 /* MissileFire.sks */; };
+		FA94CF0924F0797A00574339 /* SatelliteExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEEE24F0797A00574339 /* SatelliteExplosion.sks */; };
+		FA94CF0A24F0797A00574339 /* MissilePowerUpGlow.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEEF24F0797A00574339 /* MissilePowerUpGlow.sks */; };
+		FA94CF0B24F0797A00574339 /* MissileExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEF024F0797A00574339 /* MissileExplosion.sks */; };
+		FA94CF0C24F0797A00574339 /* MainMenuFire.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEF124F0797A00574339 /* MainMenuFire.sks */; };
+		FA94CF0D24F0797A00574339 /* leverLightGood.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEF224F0797A00574339 /* leverLightGood.sks */; };
+		FA94CF0E24F0797A00574339 /* FastPowerUpGlow.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEF324F0797A00574339 /* FastPowerUpGlow.sks */; };
+		FA94CF0F24F0797A00574339 /* RocketFire.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEF424F0797A00574339 /* RocketFire.sks */; };
+		FA94CF1024F0797A00574339 /* Confetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEF524F0797A00574339 /* Confetti.sks */; };
+		FA94CF1124F0797A00574339 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEF724F0797A00574339 /* MainMenu.sks */; };
+		FA94CF1224F0797A00574339 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CEF824F0797A00574339 /* MainMenu.swift */; };
+		FA94CF1324F0797A00574339 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEF924F0797A00574339 /* GameScene.sks */; };
+		FA94CF1424F0797A00574339 /* Shop.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CEFA24F0797A00574339 /* Shop.sks */; };
+		FA94CF1524F0797A00574339 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CEFB24F0797A00574339 /* Shop.swift */; };
+		FA94CF1624F0797A00574339 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CEFC24F0797A00574339 /* GameScene.swift */; };
+		FA94CF2124F0799100574339 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF1824F0799100574339 /* GameViewController.swift */; };
+		FA94CF2224F0799100574339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA94CF1924F0799100574339 /* Assets.xcassets */; };
+		FA94CF2324F0799100574339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA94CF1A24F0799100574339 /* LaunchScreen.storyboard */; };
+		FA94CF2424F0799100574339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA94CF1C24F0799100574339 /* Main.storyboard */; };
+		FA94CF2524F0799100574339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF1E24F0799100574339 /* AppDelegate.swift */; };
+		FA94CF2724F0799100574339 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA94CF2024F0799100574339 /* Actions.sks */; };
+		FA94CF3324F079B900574339 /* Satellite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF2924F079B900574339 /* Satellite.swift */; };
+		FA94CF3424F079B900574339 /* WheelSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF2A24F079B900574339 /* WheelSprite.swift */; };
+		FA94CF3524F079B900574339 /* OptionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF2B24F079B900574339 /* OptionsMenu.swift */; };
+		FA94CF3624F079B900574339 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF2C24F079B900574339 /* Rocket.swift */; };
+		FA94CF3724F079B900574339 /* MissileSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF2D24F079B900574339 /* MissileSprite.swift */; };
+		FA94CF3824F079B900574339 /* CheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF2E24F079B900574339 /* CheckMark.swift */; };
+		FA94CF3924F079B900574339 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF2F24F079B900574339 /* Coin.swift */; };
+		FA94CF3A24F079B900574339 /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF3024F079B900574339 /* PowerUp.swift */; };
+		FA94CF3B24F079B900574339 /* UFO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF3124F079B900574339 /* UFO.swift */; };
+		FA94CF3C24F079B900574339 /* StatMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94CF3224F079B900574339 /* StatMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B1E73566031E485A5E6E9D3 /* Pods_Space_Evade_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Space_Evade_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F76687C026B8EC75BD54A9 /* Pods-Space Evade!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space Evade!.debug.xcconfig"; path = "Target Support Files/Pods-Space Evade!/Pods-Space Evade!.debug.xcconfig"; sourceTree = "<group>"; };
+		787F1C399CDC23FE18DF0216 /* Pods-Space Evade!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space Evade!.release.xcconfig"; path = "Target Support Files/Pods-Space Evade!/Pods-Space Evade!.release.xcconfig"; sourceTree = "<group>"; };
+		FA8BF36A254527070073C369 /* RewardedAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAd.swift; sourceTree = "<group>"; };
+		FA94CE8824F077B400574339 /* Space Evade!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Evade!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA94CEAD24F0793B00574339 /* GameOver2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver2.wav; sourceTree = "<group>"; };
+		FA94CEAE24F0793B00574339 /* Click1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click1.wav; sourceTree = "<group>"; };
+		FA94CEAF24F0793B00574339 /* CoinIncrease.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CoinIncrease.wav; sourceTree = "<group>"; };
+		FA94CEB024F0793B00574339 /* RockBreaking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RockBreaking.wav; sourceTree = "<group>"; };
+		FA94CEB124F0793B00574339 /* GameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameMusic.mp3; sourceTree = "<group>"; };
+		FA94CEB224F0793B00574339 /* ScoreIncrease.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ScoreIncrease.wav; sourceTree = "<group>"; };
+		FA94CEB324F0793B00574339 /* WheelSpinSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WheelSpinSound.wav; sourceTree = "<group>"; };
+		FA94CEB424F0793B00574339 /* Satellite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Satellite.wav; sourceTree = "<group>"; };
+		FA94CEB524F0793B00574339 /* Error2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error2.wav; sourceTree = "<group>"; };
+		FA94CEB624F0793B00574339 /* GameOverSound3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOverSound3.wav; sourceTree = "<group>"; };
+		FA94CEB724F0793B00574339 /* Nuke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Nuke.wav; sourceTree = "<group>"; };
+		FA94CEB824F0793B00574339 /* Missile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Missile.wav; sourceTree = "<group>"; };
+		FA94CEB924F0793B00574339 /* PressDownButtonSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PressDownButtonSound.wav; sourceTree = "<group>"; };
+		FA94CEBA24F0793B00574339 /* PressUpButtonSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PressUpButtonSound.wav; sourceTree = "<group>"; };
+		FA94CEBB24F0793B00574339 /* RocketTakingOff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RocketTakingOff.wav; sourceTree = "<group>"; };
+		FA94CEBC24F0793B00574339 /* WarpSpeed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WarpSpeed.wav; sourceTree = "<group>"; };
+		FA94CEBD24F0793B00574339 /* MainMenu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MainMenu.wav; sourceTree = "<group>"; };
+		FA94CEBE24F0793B00574339 /* Coin2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Coin2.wav; sourceTree = "<group>"; };
+		FA94CEBF24F0793B00574339 /* Coin1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Coin1.wav; sourceTree = "<group>"; };
+		FA94CEC024F0793B00574339 /* Explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Explosion.wav; sourceTree = "<group>"; };
+		FA94CEC124F0793B00574339 /* Rocket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rocket.wav; sourceTree = "<group>"; };
+		FA94CEC224F0793B00574339 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
+		FA94CEC324F0793B00574339 /* ShopMusic2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ShopMusic2.mp3; sourceTree = "<group>"; };
+		FA94CEC424F0793B00574339 /* Cheers.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cheers.wav; sourceTree = "<group>"; };
+		FA94CEC524F0793B00574339 /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
+		FA94CEC624F0793B00574339 /* UFO.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = UFO.wav; sourceTree = "<group>"; };
+		FA94CEE224F0797A00574339 /* UFOStream.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = UFOStream.sks; sourceTree = "<group>"; };
+		FA94CEE324F0797A00574339 /* Stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Stars.sks; sourceTree = "<group>"; };
+		FA94CEE424F0797A00574339 /* BlowUpPowerUpGlow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BlowUpPowerUpGlow.sks; sourceTree = "<group>"; };
+		FA94CEE524F0797A00574339 /* RockExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RockExplosion.sks; sourceTree = "<group>"; };
+		FA94CEE624F0797A00574339 /* FastEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FastEffect.sks; sourceTree = "<group>"; };
+		FA94CEE724F0797A00574339 /* MainMenuStars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuStars.sks; sourceTree = "<group>"; };
+		FA94CEE824F0797A00574339 /* ForceFieldCircle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ForceFieldCircle.sks; sourceTree = "<group>"; };
+		FA94CEE924F0797A00574339 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		FA94CEEA24F0797A00574339 /* ForceFieldCountDown.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ForceFieldCountDown.sks; sourceTree = "<group>"; };
+		FA94CEEB24F0797A00574339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA94CEEC24F0797A00574339 /* ShopStars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShopStars.sks; sourceTree = "<group>"; };
+		FA94CEED24F0797A00574339 /* MissileFire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MissileFire.sks; sourceTree = "<group>"; };
+		FA94CEEE24F0797A00574339 /* SatelliteExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SatelliteExplosion.sks; sourceTree = "<group>"; };
+		FA94CEEF24F0797A00574339 /* MissilePowerUpGlow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MissilePowerUpGlow.sks; sourceTree = "<group>"; };
+		FA94CEF024F0797A00574339 /* MissileExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MissileExplosion.sks; sourceTree = "<group>"; };
+		FA94CEF124F0797A00574339 /* MainMenuFire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuFire.sks; sourceTree = "<group>"; };
+		FA94CEF224F0797A00574339 /* leverLightGood.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = leverLightGood.sks; sourceTree = "<group>"; };
+		FA94CEF324F0797A00574339 /* FastPowerUpGlow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FastPowerUpGlow.sks; sourceTree = "<group>"; };
+		FA94CEF424F0797A00574339 /* RocketFire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RocketFire.sks; sourceTree = "<group>"; };
+		FA94CEF524F0797A00574339 /* Confetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Confetti.sks; sourceTree = "<group>"; };
+		FA94CEF724F0797A00574339 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		FA94CEF824F0797A00574339 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		FA94CEF924F0797A00574339 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FA94CEFA24F0797A00574339 /* Shop.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Shop.sks; sourceTree = "<group>"; };
+		FA94CEFB24F0797A00574339 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		FA94CEFC24F0797A00574339 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FA94CF1824F0799100574339 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FA94CF1924F0799100574339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA94CF1B24F0799100574339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA94CF1D24F0799100574339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA94CF1E24F0799100574339 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA94CF1F24F0799100574339 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA94CF2024F0799100574339 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FA94CF2924F079B900574339 /* Satellite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Satellite.swift; sourceTree = "<group>"; };
+		FA94CF2A24F079B900574339 /* WheelSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelSprite.swift; sourceTree = "<group>"; };
+		FA94CF2B24F079B900574339 /* OptionsMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsMenu.swift; sourceTree = "<group>"; };
+		FA94CF2C24F079B900574339 /* Rocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		FA94CF2D24F079B900574339 /* MissileSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissileSprite.swift; sourceTree = "<group>"; };
+		FA94CF2E24F079B900574339 /* CheckMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMark.swift; sourceTree = "<group>"; };
+		FA94CF2F24F079B900574339 /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		FA94CF3024F079B900574339 /* PowerUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerUp.swift; sourceTree = "<group>"; };
+		FA94CF3124F079B900574339 /* UFO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UFO.swift; sourceTree = "<group>"; };
+		FA94CF3224F079B900574339 /* StatMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA94CE8524F077B400574339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B918C23A80E69AB0DB12D1 /* Pods_Space_Evade_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24773523A0B0634CB9D7803A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E73566031E485A5E6E9D3 /* Pods_Space_Evade_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E5A8DC45EAAF157D4F0980 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30F76687C026B8EC75BD54A9 /* Pods-Space Evade!.debug.xcconfig */,
+				787F1C399CDC23FE18DF0216 /* Pods-Space Evade!.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA94CE7F24F077B400574339 = {
+			isa = PBXGroup;
+			children = (
+				FA94CEAC24F0793B00574339 /* Sounds */,
+				FA94CE8924F077B400574339 /* Products */,
+				FA94CF2824F079B900574339 /* Sprites */,
+				FA94CEE124F0797A00574339 /* Particles */,
+				FA94CF1724F0799100574339 /* Shaky Rocket */,
+				FA94CEF624F0797A00574339 /* Scenes */,
+				C9E5A8DC45EAAF157D4F0980 /* Pods */,
+				24773523A0B0634CB9D7803A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA94CE8924F077B400574339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA94CE8824F077B400574339 /* Space Evade!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA94CEAC24F0793B00574339 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FA94CEAD24F0793B00574339 /* GameOver2.wav */,
+				FA94CEAE24F0793B00574339 /* Click1.wav */,
+				FA94CEAF24F0793B00574339 /* CoinIncrease.wav */,
+				FA94CEB024F0793B00574339 /* RockBreaking.wav */,
+				FA94CEB124F0793B00574339 /* GameMusic.mp3 */,
+				FA94CEB224F0793B00574339 /* ScoreIncrease.wav */,
+				FA94CEB324F0793B00574339 /* WheelSpinSound.wav */,
+				FA94CEB424F0793B00574339 /* Satellite.wav */,
+				FA94CEB524F0793B00574339 /* Error2.wav */,
+				FA94CEB624F0793B00574339 /* GameOverSound3.wav */,
+				FA94CEB724F0793B00574339 /* Nuke.wav */,
+				FA94CEB824F0793B00574339 /* Missile.wav */,
+				FA94CEB924F0793B00574339 /* PressDownButtonSound.wav */,
+				FA94CEBA24F0793B00574339 /* PressUpButtonSound.wav */,
+				FA94CEBB24F0793B00574339 /* RocketTakingOff.wav */,
+				FA94CEBC24F0793B00574339 /* WarpSpeed.wav */,
+				FA94CEBD24F0793B00574339 /* MainMenu.wav */,
+				FA94CEBE24F0793B00574339 /* Coin2.wav */,
+				FA94CEBF24F0793B00574339 /* Coin1.wav */,
+				FA94CEC024F0793B00574339 /* Explosion.wav */,
+				FA94CEC124F0793B00574339 /* Rocket.wav */,
+				FA94CEC224F0793B00574339 /* Error.wav */,
+				FA94CEC324F0793B00574339 /* ShopMusic2.mp3 */,
+				FA94CEC424F0793B00574339 /* Cheers.wav */,
+				FA94CEC524F0793B00574339 /* GameOver.wav */,
+				FA94CEC624F0793B00574339 /* UFO.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		FA94CEE124F0797A00574339 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				FA94CEE224F0797A00574339 /* UFOStream.sks */,
+				FA94CEE324F0797A00574339 /* Stars.sks */,
+				FA94CEE424F0797A00574339 /* BlowUpPowerUpGlow.sks */,
+				FA94CEE524F0797A00574339 /* RockExplosion.sks */,
+				FA94CEE624F0797A00574339 /* FastEffect.sks */,
+				FA94CEE724F0797A00574339 /* MainMenuStars.sks */,
+				FA94CEE824F0797A00574339 /* ForceFieldCircle.sks */,
+				FA94CEE924F0797A00574339 /* Explosion.sks */,
+				FA94CEEA24F0797A00574339 /* ForceFieldCountDown.sks */,
+				FA94CEEB24F0797A00574339 /* Assets.xcassets */,
+				FA94CEEC24F0797A00574339 /* ShopStars.sks */,
+				FA94CEED24F0797A00574339 /* MissileFire.sks */,
+				FA94CEEE24F0797A00574339 /* SatelliteExplosion.sks */,
+				FA94CEEF24F0797A00574339 /* MissilePowerUpGlow.sks */,
+				FA94CEF024F0797A00574339 /* MissileExplosion.sks */,
+				FA94CEF124F0797A00574339 /* MainMenuFire.sks */,
+				FA94CEF224F0797A00574339 /* leverLightGood.sks */,
+				FA94CEF324F0797A00574339 /* FastPowerUpGlow.sks */,
+				FA94CEF424F0797A00574339 /* RocketFire.sks */,
+				FA94CEF524F0797A00574339 /* Confetti.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		FA94CEF624F0797A00574339 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FA94CEF724F0797A00574339 /* MainMenu.sks */,
+				FA94CEF824F0797A00574339 /* MainMenu.swift */,
+				FA94CEF924F0797A00574339 /* GameScene.sks */,
+				FA94CEFA24F0797A00574339 /* Shop.sks */,
+				FA94CEFB24F0797A00574339 /* Shop.swift */,
+				FA94CEFC24F0797A00574339 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FA94CF1724F0799100574339 /* Shaky Rocket */ = {
+			isa = PBXGroup;
+			children = (
+				FA94CF1824F0799100574339 /* GameViewController.swift */,
+				FA94CF1924F0799100574339 /* Assets.xcassets */,
+				FA94CF1A24F0799100574339 /* LaunchScreen.storyboard */,
+				FA94CF1C24F0799100574339 /* Main.storyboard */,
+				FA94CF1E24F0799100574339 /* AppDelegate.swift */,
+				FA94CF1F24F0799100574339 /* Info.plist */,
+				FA94CF2024F0799100574339 /* Actions.sks */,
+			);
+			path = "Shaky Rocket";
+			sourceTree = "<group>";
+		};
+		FA94CF2824F079B900574339 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				FA94CF2924F079B900574339 /* Satellite.swift */,
+				FA94CF2A24F079B900574339 /* WheelSprite.swift */,
+				FA94CF2B24F079B900574339 /* OptionsMenu.swift */,
+				FA94CF2C24F079B900574339 /* Rocket.swift */,
+				FA94CF2D24F079B900574339 /* MissileSprite.swift */,
+				FA94CF2E24F079B900574339 /* CheckMark.swift */,
+				FA94CF2F24F079B900574339 /* Coin.swift */,
+				FA94CF3024F079B900574339 /* PowerUp.swift */,
+				FA94CF3124F079B900574339 /* UFO.swift */,
+				FA94CF3224F079B900574339 /* StatMenu.swift */,
+				FA8BF36A254527070073C369 /* RewardedAd.swift */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA94CE8724F077B400574339 /* Space Evade! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA94CEA024F077B500574339 /* Build configuration list for PBXNativeTarget "Space Evade!" */;
+			buildPhases = (
+				51AB53A91489B9EF858812F0 /* [CP] Check Pods Manifest.lock */,
+				FA94CE8424F077B400574339 /* Sources */,
+				FA94CE8524F077B400574339 /* Frameworks */,
+				FA94CE8624F077B400574339 /* Resources */,
+				56FA0A725D5EA2D22DFB138B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Evade!";
+			productName = "Space Race";
+			productReference = FA94CE8824F077B400574339 /* Space Evade!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA94CE8024F077B400574339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = example;
+				TargetAttributes = {
+					FA94CE8724F077B400574339 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = FA94CE8324F077B400574339 /* Build configuration list for PBXProject "Space Evade!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA94CE7F24F077B400574339;
+			productRefGroup = FA94CE8924F077B400574339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA94CE8724F077B400574339 /* Space Evade! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA94CE8624F077B400574339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA94CEC824F0793B00574339 /* Click1.wav in Resources */,
+				FA94CF2724F0799100574339 /* Actions.sks in Resources */,
+				FA94CEE024F0793B00574339 /* UFO.wav in Resources */,
+				FA94CEDE24F0793B00574339 /* Cheers.wav in Resources */,
+				FA94CECD24F0793B00574339 /* WheelSpinSound.wav in Resources */,
+				FA94CF1324F0797A00574339 /* GameScene.sks in Resources */,
+				FA94CECC24F0793B00574339 /* ScoreIncrease.wav in Resources */,
+				FA94CED324F0793B00574339 /* PressDownButtonSound.wav in Resources */,
+				FA94CF2424F0799100574339 /* Main.storyboard in Resources */,
+				FA94CED424F0793B00574339 /* PressUpButtonSound.wav in Resources */,
+				FA94CED724F0793B00574339 /* MainMenu.wav in Resources */,
+				FA94CEFD24F0797A00574339 /* UFOStream.sks in Resources */,
+				FA94CF1024F0797A00574339 /* Confetti.sks in Resources */,
+				FA94CF0B24F0797A00574339 /* MissileExplosion.sks in Resources */,
+				FA94CEFE24F0797A00574339 /* Stars.sks in Resources */,
+				FA94CF0024F0797A00574339 /* RockExplosion.sks in Resources */,
+				FA94CEDF24F0793B00574339 /* GameOver.wav in Resources */,
+				FA94CED924F0793B00574339 /* Coin1.wav in Resources */,
+				FA94CF0424F0797A00574339 /* Explosion.sks in Resources */,
+				FA94CEDB24F0793B00574339 /* Rocket.wav in Resources */,
+				FA94CF0D24F0797A00574339 /* leverLightGood.sks in Resources */,
+				FA94CEC724F0793B00574339 /* GameOver2.wav in Resources */,
+				FA94CF0724F0797A00574339 /* ShopStars.sks in Resources */,
+				FA94CF0E24F0797A00574339 /* FastPowerUpGlow.sks in Resources */,
+				FA94CF0F24F0797A00574339 /* RocketFire.sks in Resources */,
+				FA94CEDA24F0793B00574339 /* Explosion.wav in Resources */,
+				FA94CF2324F0799100574339 /* LaunchScreen.storyboard in Resources */,
+				FA94CF2224F0799100574339 /* Assets.xcassets in Resources */,
+				FA94CF1124F0797A00574339 /* MainMenu.sks in Resources */,
+				FA94CECE24F0793B00574339 /* Satellite.wav in Resources */,
+				FA94CF0924F0797A00574339 /* SatelliteExplosion.sks in Resources */,
+				FA94CED524F0793B00574339 /* RocketTakingOff.wav in Resources */,
+				FA94CEDD24F0793B00574339 /* ShopMusic2.mp3 in Resources */,
+				FA94CECF24F0793B00574339 /* Error2.wav in Resources */,
+				FA94CED124F0793B00574339 /* Nuke.wav in Resources */,
+				FA94CF0C24F0797A00574339 /* MainMenuFire.sks in Resources */,
+				FA94CEFF24F0797A00574339 /* BlowUpPowerUpGlow.sks in Resources */,
+				FA94CED224F0793B00574339 /* Missile.wav in Resources */,
+				FA94CF0224F0797A00574339 /* MainMenuStars.sks in Resources */,
+				FA94CF1424F0797A00574339 /* Shop.sks in Resources */,
+				FA94CED624F0793B00574339 /* WarpSpeed.wav in Resources */,
+				FA94CF0524F0797A00574339 /* ForceFieldCountDown.sks in Resources */,
+				FA94CECA24F0793B00574339 /* RockBreaking.wav in Resources */,
+				FA94CECB24F0793B00574339 /* GameMusic.mp3 in Resources */,
+				FA94CEDC24F0793B00574339 /* Error.wav in Resources */,
+				FA94CF0324F0797A00574339 /* ForceFieldCircle.sks in Resources */,
+				FA94CED024F0793B00574339 /* GameOverSound3.wav in Resources */,
+				FA94CED824F0793B00574339 /* Coin2.wav in Resources */,
+				FA94CEC924F0793B00574339 /* CoinIncrease.wav in Resources */,
+				FA94CF0624F0797A00574339 /* Assets.xcassets in Resources */,
+				FA94CF0824F0797A00574339 /* MissileFire.sks in Resources */,
+				FA94CF0A24F0797A00574339 /* MissilePowerUpGlow.sks in Resources */,
+				FA94CF0124F0797A00574339 /* FastEffect.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51AB53A91489B9EF858812F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Space Evade!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56FA0A725D5EA2D22DFB138B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Space Evade!/Pods-Space Evade!-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Space Evade!/Pods-Space Evade!-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Space Evade!/Pods-Space Evade!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA94CE8424F077B400574339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA94CF3624F079B900574339 /* Rocket.swift in Sources */,
+				FA94CF2124F0799100574339 /* GameViewController.swift in Sources */,
+				FA94CF1624F0797A00574339 /* GameScene.swift in Sources */,
+				FA94CF1224F0797A00574339 /* MainMenu.swift in Sources */,
+				FA94CF2524F0799100574339 /* AppDelegate.swift in Sources */,
+				FA94CF1524F0797A00574339 /* Shop.swift in Sources */,
+				FA94CF3924F079B900574339 /* Coin.swift in Sources */,
+				FA94CF3524F079B900574339 /* OptionsMenu.swift in Sources */,
+				FA94CF3C24F079B900574339 /* StatMenu.swift in Sources */,
+				FA94CF3724F079B900574339 /* MissileSprite.swift in Sources */,
+				FA94CF3A24F079B900574339 /* PowerUp.swift in Sources */,
+				FA94CF3824F079B900574339 /* CheckMark.swift in Sources */,
+				FA94CF3424F079B900574339 /* WheelSprite.swift in Sources */,
+				FA94CF3B24F079B900574339 /* UFO.swift in Sources */,
+				FA8BF36B254527070073C369 /* RewardedAd.swift in Sources */,
+				FA94CF3324F079B900574339 /* Satellite.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA94CF1A24F0799100574339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA94CF1B24F0799100574339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA94CF1C24F0799100574339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA94CF1D24F0799100574339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA94CE9E24F077B500574339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA94CE9F24F077B500574339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA94CEA124F077B500574339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F76687C026B8EC75BD54A9 /* Pods-Space Evade!.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5945TT562;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scenes/GoogleMobileAdsSdkiOS-7.64.0",
+				);
+				INFOPLIST_FILE = "/Users/macbook/Desktop/Space Evade!/Shaky Rocket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Space-Ride";
+				PRODUCT_NAME = "Space Evade!";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA94CEA224F077B500574339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787F1C399CDC23FE18DF0216 /* Pods-Space Evade!.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5945TT562;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scenes/GoogleMobileAdsSdkiOS-7.64.0",
+				);
+				INFOPLIST_FILE = "/Users/macbook/Desktop/Space Evade!/Shaky Rocket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Space-Ride";
+				PRODUCT_NAME = "Space Evade!";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA94CE8324F077B400574339 /* Build configuration list for PBXProject "Space Evade!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA94CE9E24F077B500574339 /* Debug */,
+				FA94CE9F24F077B500574339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA94CEA024F077B500574339 /* Build configuration list for PBXNativeTarget "Space Evade!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA94CEA124F077B500574339 /* Debug */,
+				FA94CEA224F077B500574339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA94CE8024F077B400574339 /* Project object */;
+}
